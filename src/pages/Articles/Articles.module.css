@@ -1,0 +1,23 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.allArticles img {
+    width: 200px;
+}
+
+.article {
+    padding: 5px 10px;
+    box-shadow: 0 0 5px grey;
+}
+
+.articleTitle {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.authors {
+    margin: 10px 0;
+}

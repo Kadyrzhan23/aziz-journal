@@ -1,0 +1,12 @@
+.preloaderContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f3f4f6;
+}
+
+.title {
+    font-size: large;
+    color: rgb(153, 78, 78);
+}

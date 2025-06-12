@@ -1,0 +1,16 @@
+.archivesWrapper {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.monthArchivewrapper {
+    padding: 10px 30px;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    padding: 5px 10px;
+    box-shadow: 0 0 5px grey;
+
+    /* Аналогично --tw-shadow */
+}

@@ -1,0 +1,21 @@
+.wrapper{
+    padding: 30px 18px;
+}
+.link{
+    color: #551A8B;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.link:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.volumeWrapper{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    column-gap: 10px;
+    justify-content: center;
+}

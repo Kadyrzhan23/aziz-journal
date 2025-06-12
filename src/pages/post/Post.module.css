@@ -1,0 +1,78 @@
+.wrapper{
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.title {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+    margin: 20px 0;
+
+    /* Базовый размер для десктопа */
+    font-size: 32px;
+
+    /* Планшеты */
+    @media (max-width: 1024px) {
+        font-size: 28px;
+    }
+
+    /* Телефоны в горизонтальной ориентации */
+    @media (max-width: 768px) {
+        font-size: 24px;
+    }
+
+    /* Маленькие экраны (телефоны) */
+    @media (max-width: 480px) {
+        font-size: 20px;
+    }
+
+    /* Очень маленькие экраны */
+    @media (max-width: 320px) {
+        font-size: 18px;
+    }
+}
+
+.description {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #555;
+    margin: 10px 0;
+
+    /* Базовый размер для десктопа */
+    font-size: 18px;
+
+    /* Планшеты */
+    @media (max-width: 1024px) {
+        font-size: 16px;
+    }
+
+    /* Телефоны в горизонтальной ориентации */
+    @media (max-width: 768px) {
+        font-size: 14px;
+    }
+
+    /* Маленькие экраны (телефоны) */
+    @media (max-width: 480px) {
+        font-size: 13px;
+    }
+
+    /* Очень маленькие экраны */
+    @media (max-width: 320px) {
+        font-size: 12px;
+    }
+}
+
+.backgroundRed{
+    background-color: #FFEBEE;
+}
+
+.redText{
+    color: red;
+}
+
+
