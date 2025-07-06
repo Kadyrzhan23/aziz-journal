@@ -1,0 +1,56 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fcfaef;
+    padding: 1rem 2rem;
+    font-family: sans-serif;
+  }
+  
+  .left {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+  
+  .logo {
+    height: 32px;
+  }
+  
+  .nav {
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  .nav a {
+    text-decoration: none;
+    color: #1c1c1c;
+    font-weight: 500;
+  }
+  
+  .actions {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .btn {
+    padding: 0.5rem 1.2rem;
+    border-radius: 9999px;
+    font-weight: bold;
+    font-size: 0.9rem;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+  }
+  
+  .primary {
+    background-color: #6b8e53;
+    color: white;
+    border: none;
+  }
+  
+  .outline {
+    background: transparent;
+    color: #6b8e53;
+    border: 2px solid #6b8e53;
+  }
+  
